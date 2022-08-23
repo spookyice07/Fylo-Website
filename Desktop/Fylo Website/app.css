@@ -1,0 +1,218 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-size:20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/*Color Schemes*/
+:root{
+    --Light-Gray: hsl(0, 0%, 75%);
+    --Light-GrayishBlue: hsl(240, 75%, 98%);
+    --Desaturated-Blue: hsl(238, 22%, 44%);
+    --VeryDark-Blue: hsl(243, 87%, 12%);
+    --Bright-Blue: hsl(224, 93%, 58%);
+    --Moderate-Cyan: hsl(170, 45%, 43%);
+}
+
+/*container for the width*/
+.container{
+    width:1100px;
+    margin: auto;
+}
+
+/*Navbar*/
+nav{
+    float: right;
+}
+.navbar{
+    margin-top:40px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav ul li{
+    padding:20px
+}
+.nav ul li a{
+    color:var(--Light-Gray);
+    text-decoration: none;
+}
+
+/*hero-section*/
+.hero-section{
+    margin-top:50px;
+}
+.hero-write h1{
+    font-size:37px;
+    color:var(--VeryDark-Blue);
+    font-weight:bold;
+}
+.hero-write p{
+    margin-top:15px;
+    color:var(--Desaturated-Blue);
+    word-spacing: 4px;
+}
+.hero-img{
+    width:100%;
+}
+.hero-img img{
+    width:500px
+}
+.hero{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    align-items: center;
+}
+.form{
+    display: flex;
+    margin-top:10px;
+}
+.email{
+    margin-right: 8px;
+}
+input[type=email]{
+    height: 35px;
+}
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    font-size:15px;
+    padding-left: 5px;
+}
+input[type=submit]{
+    height:35px;
+    text-align: center;
+    width:180px;
+    background-color: var(--Bright-Blue);
+    color:white;
+    border:0px;
+    font-size:15px;
+    box-shadow: 2px 4px 39px 1px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 2px 4px 39px 1px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 2px 4px 39px 1px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: var(--VeryDark-Blue);
+}
+
+/*second hero section*/
+.half-img{
+    position: relative;
+    top: 350px;
+    overflow: hidden;
+}
+.mid-section{
+   /*background-image: url(./fylo-landing-page-with-two-column-layout-master/images/bg-curve-desktop.svg);*/
+   background-color:var(--Light-GrayishBlue);
+   margin-top:300px;
+   height:650px;
+}
+.testimony{
+    background-color: white;
+    box-shadow: 2px 4px 16px 1px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 2px 4px 16px 1px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 2px 4px 16px 1px rgba(0, 0, 0, 0.75);
+    width:450px;
+    height:270px;
+    padding:25px;
+    margin-top:50px;
+    margin-bottom:20px;
+}
+.mid_hero_img{
+    width:500px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+}
+.info .profilepics img{
+    border-radius: 50%;
+    width:70px;
+    margin-right:10px;
+}
+.username p{
+    margin-top:-0.1px;
+}
+.minilink a{
+    color:rgb(171, 206, 171);
+    font-size:23px;
+}
+
+/*subsection*/
+.subsection{
+    background-color: var(--Desaturated-Blue);
+    color:white;
+}
+.grid-subsection{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.grid-text{
+    max-width: 500px;
+}
+.grid-text h1{
+font-size:30px;
+}
+.grid-text p{
+    font-size:18px;
+    margin-top:10px;
+    word-spacing: 4px;
+}
+.email2{
+    border-radius: 5px;
+    border:0px;
+    margin-bottom: 10px;
+    width:400px;
+}
+
+/*footer*/
+footer{
+    background-color: var(--VeryDark-Blue);
+    color:white;
+    padding-top: 70px;
+    padding-bottom:30px;
+}
+.tel img{
+    padding-right:10px;
+}
+.tel{
+    padding-top:15px;
+}
+.footer{
+    display: flex;
+
+}
+.footer-h1{
+    display: flex;
+    flex-direction: column;
+    margin-right:50px;
+    margin-left: 100px;
+}
+.footer-h1 a{
+    color:white;
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-top:15px;
+}
+.footer-h1 a:hover{
+    color: var(--Desaturated-Blue);
+}
+.socials a{
+    display: inline-block;
+    height:40px;
+    width:40px;
+    background-color: var(--VeryDark-Blue);
+    border-radius: 50%;
+    border:1px solid white;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
