@@ -215,4 +215,152 @@ footer{
     padding-top: 10px;
     margin-left: 10px;
 }
+@media screen and (max-width:375px) {
+    .container{
+        margin-right:20px;
+        margin-left: 20px;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+    }
+    .nav{
+        padding-left: 60px;
+    }
+    .nav ul li{
+        padding:7px;
+        margin-left:5px;
+    }
+    .nav ul li a {
+    font-size: 14px;
+    }
+    .navbar img{
+        width:100px;
+    }
 
+    /*hero-section*/
+    .hero{
+        display:flex ;
+        flex-direction:column-reverse;
+    }
+    .hero-img img{
+        width:300px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+   .hero-write h1{
+    font-size:25px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    width:300px;
+    text-align: center;
+    margin-top:20px;
+    color: var(--VeryDark-Blue);
+   }
+   .hero-write p{
+    width:30%;
+    text-align: center;
+    line-height: 24px;
+   }
+   .form{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    text-align: center;
+   }
+   .submit{
+    margin-top:20px;
+    
+   }
+   input[type=email]{
+    width:300px;
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+   input[type=submit]{
+    margin-left: 20px;
+    margin-right: 20px;
+    width:300px;
+   }
+   /*second hero section*/
+   .half-img {
+    background-image: url(./fylo-landing-page-with-two-column-layout-master/images/bg-curve-mobile.svg);
+    margin-bottom:-20px;
+    margin-top:-300px;
+   }
+   .testimony{
+    width: 300px;
+
+   }
+   .testimony p{
+    font-size:14px;
+    width:250px;
+    text-align: center;
+   }
+   .mid_hero_img{
+    position: relative;
+    left:-300px;
+    top:-30px;
+   }
+   .hero-write2 h1{
+    font-size: 17px;
+    width: 25%;
+    text-align: center;
+   }
+   .hero-write2 p{
+    text-align: left;
+   }
+   .minilink{
+    text-align: center;
+    margin-left: 30px;
+    margin-right:20px;
+    padding-top:50px;
+   }
+   .subsection{
+    margin-top: 350px;
+    height: 400px;
+    width:500px;
+   }
+
+   /*subsection*/
+   .subsection .grid-subsection{
+    display: flex;
+    flex-direction:column ;
+    margin-left: 20px;
+    margin-right: 20px;
+    width:300px;
+    text-align: center;
+    padding-top:50px;
+   }
+   .subsection .grid-subsection h1{
+    padding-bottom: 20px;
+   }
+   .grid-signup{
+    display: flex;
+    flex-direction: column;
+    padding-top:30px;
+   }
+
+   .footer{
+    display:grid ;
+    height: 600px;
+    margin-left: 20px;
+    margin-right:20px;
+    width:300px;
+   }
+   .footer-img{
+    margin-left:20px;
+   }
+   .footer-h1{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: -1px;
+    padding-bottom: 30px;
+    padding-top:30px;
+   }
+   .footer-socials{
+    text-align: center;
+   }
+}
